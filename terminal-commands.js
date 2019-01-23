@@ -31,7 +31,4 @@ module.exports.mkdir = (dirName) => {
    } else {
       console.log('The directory already exists');
    }
-
-
-
 };
