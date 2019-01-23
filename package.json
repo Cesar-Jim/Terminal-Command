@@ -1,0 +1,23 @@
+{
+  "name": "terminal-commands",
+  "version": "1.0.0",
+  "description": "this module implements some common terminal commands",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cesar-Jim/Terminal-Command.git"
+  },
+  "keywords": [
+    "terminal",
+    "commands"
+  ],
+  "author": "Cesar Jimenez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cesar-Jim/Terminal-Command/issues"
+  },
+  "homepage": "https://github.com/Cesar-Jim/Terminal-Command#readme"
+}

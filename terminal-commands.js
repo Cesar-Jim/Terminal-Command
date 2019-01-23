@@ -10,10 +10,28 @@ module.exports.ls = () => {
    });
 };
 
-module.exports.touch = () => {
-   // your code here
+
+module.exports.touch = (filename) => {
+   fs.writeFile(filename, '', (err) => {
+      if (err) throw err;
+
+      console.log(`The file "${filename}" was successfully created!`);
+   });
 };
 
-module.exports.mkdir = () => {
-   // your code here
+
+module.exports.mkdir = (dirName) => {
+
+   if (!fs.existsSync(dirName)) {
+      fs.mkdir(`./${dirName}`, (err) => {
+         if (err) throw err;
+
+         console.log(`The directory "${dirName}" was successfully created!`)
+      });
+   } else {
+      console.log('The directory already exists');
+   }
+
+
+
 };
